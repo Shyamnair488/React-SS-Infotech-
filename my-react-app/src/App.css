@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  /*  length increases in border box and content box */
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-image:url("background.jpg");
+  /* background-size: contain; */
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#about-us {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  padding: 100px 100px 100px 100px; /*padding = top right bottom left */ 
+  font-size: 50px;
+
+}
+
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;  /* width hight(hight is auto ) */
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#pic {
+  height: 320px ;
+  width: 320px;
+  border-radius: 50%;
+  box-shadow: 15px 7px 100px 5px  rgb(83, 3, 3); /*   horizomtal-verticle-blur-spread-colorname-inset */
+}
+
+.text {
+  width: 540px;
+}
+.text  h2{
+  font-weight: 600;
+  margin-bottom: 10px; 
+  color: rgb(17, 236, 133);  
+}
+.text  h5{
+  font-weight: 500;
+  margin-bottom: 20px; 
+  color: cadetblue; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text p{
+  color: rgb(17, 236, 101);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text span{
+  color: rgb(7, 243, 199);
+  font-weight: bolder;
+}
+
+.text p{
+  line-height: 31px;      /* line spacing change we use line hight  and letter spacing changes the space between the words*/
+  letter-spacing: 1px;
+}
+
+.data {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  font-size: larger;
+  margin-top: 30px;
+}
+
+.hire {
+  border: 2px;
+  text-decoration: none;
+  color: black;
+  border-radius: 46px;
+  padding: 10px 10px;
+  transition: 0.5px;
+  background-color: bisque;
+
+}
+
+.hire:hover{
+  color: rgb(10, 103, 72);
+  text-transform:uppercase ;  
+  box-shadow: 5px 1px 10px   black;
+  border-color: transparent;
+}
